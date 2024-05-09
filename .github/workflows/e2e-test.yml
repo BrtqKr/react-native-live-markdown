@@ -23,8 +23,6 @@ jobs:
       run:
         working-directory: ./WebExample
 
-    container:
-      image: mcr.microsoft.com/playwright:v1.43.1-jammy
     concurrency:
       group: e2e-test-${{ github.ref }}
       cancel-in-progress: true
