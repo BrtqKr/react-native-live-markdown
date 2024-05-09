@@ -46,5 +46,3 @@ jobs:
 
       - name: Run playwright tests
         run: yarn test
-        env:
-          HOME: /root
